@@ -1,0 +1,22 @@
+{
+  "name": "ponytail-maroon-cli",
+  "version": "1.0.0",
+  "description": "Lifecycle hooks for Claude CLI integration with Maroon governance",
+  "hooks": [
+    {
+      "event": "session.start",
+      "description": "Initialize ponytail mode + governance audit on session start",
+      "command": "node hooks/ponytail-cli-activate.js"
+    },
+    {
+      "event": "session.end",
+      "description": "Flush audit logs to governance chain on session end",
+      "command": "node hooks/ponytail-cli-finalize.js"
+    },
+    {
+      "event": "command.execute",
+      "description": "Log each command execution to audit trail",
+      "command": "node hooks/ponytail-cli-log.js"
+    }
+  ]
+}

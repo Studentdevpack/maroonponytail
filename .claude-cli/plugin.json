@@ -1,0 +1,31 @@
+{
+  "name": "ponytail-maroon",
+  "version": "1.0.0",
+  "description": "Lazy senior dev mode for Claude CLI (long-cat). Maroon governance ruleset enforced.",
+  "author": {
+    "name": "Studentdevpack",
+    "url": "https://github.com/Studentdevpack"
+  },
+  "homepage": "https://github.com/Studentdevpack/maroonponytail",
+  "repository": "https://github.com/Studentdevpack/maroonponytail",
+  "license": "MIT",
+  "keywords": ["claude-cli", "long-cat", "ponytail", "governance", "maroon"],
+  "skills": "./skills/",
+  "hooks": "./hooks/claude-cli-hooks.json",
+  "interface": {
+    "displayName": "Ponytail Maroon (Claude CLI)",
+    "shortDescription": "Lazy senior developer + governance enforcement",
+    "longDescription": "Combines YAGNI minimalism with Maroon autonomous governance. Enforces audit logging, sovereignty chains, and zero-over-engineering across all Claude CLI sessions.",
+    "developerName": "Studentdevpack",
+    "category": "Productivity",
+    "capabilities": ["Instructions", "Lifecycle hooks", "Governance logging"],
+    "websiteURL": "https://github.com/Studentdevpack/maroonponytail",
+    "defaultPrompt": [
+      "Activate ponytail + maroon governance.",
+      "Minimize code. Maximum efficiency.",
+      "Log all decisions to governance audit."
+    ],
+    "brandColor": "#CC5500",
+    "logo": "./assets/logo.png"
+  }
+}
